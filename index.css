@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Inter_Medium" ;
+    src: url(/font/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: "Inter_Regular" ;
+    src: url(/font/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "Lexend" ;
+    src: url(/font//LexendDeca-Regular.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{
+    font-size: 18px ;
+    color: black ;
+    font-family:"Lexend";
+    background-color: #F3F5F7;
+}
+
+header{
+    height: 30vh;
+    background-image: linear-gradient(to right,#574AE8, #3EA1DB);
+    margin-bottom: 20px;
+}
+
+#header_text{   
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 30%;
+}
+
+.center_flex{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding-block: 20px;
+}
+
+#header_searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+#search_bar{
+    display: flex;
+    width: 70%;
+    height: 30%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#search_bar img{
+    padding-block: 50px;
+}
+
+#search_bar input{
+    background-color: transparent;
+    width: 90%;
+    height: 100%;
+}
+
+#search_bar ::placeholder {
+    color: rgb(255, 255, 255, 0.5);
+  }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog_post{
+    width: 70%;
+    background-color: white;
+    margin-block: 25px;
+}
+
+.blog_post h1{
+    font-size: 26px;
+    padding-inline: 20px;
+}
+
+.blog_post p{
+    font-size: 18px;
+    padding-block: 15px;
+    padding-inline: 20px;
+    color: #717171;
+}
+
+.post_data{
+    padding-inline: 20px;
+    padding-block: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post_data p{
+    font-size: 16px;
+    color: #717171;
+}

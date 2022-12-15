@@ -1,0 +1,46 @@
+DESAFIO 1 - ETAPA 2 (Responsividade)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+O desafio é bem simples, então deixá-lo responsivo também vai ser.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Como dito no arquivo de sugestões:
+
+No container do post, deixe o height em auto. Como temos vários tipos de tamanhos na descrição não é bom criar altura fixa em todos.
+E use também width: 100% para ele ficar responsivo em qualquer tipo de resolução.
+
+Caso você tenha usado algum valor definido como 'width: 900px' mude para 'max-width: 900px'.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Diminua os espaçamentos dos containers (do padding e margin).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A lateral entre os elementos de as bordas laterais são de 20px, mas você pode escolher o tamanho que quiser. 
+*Só recomendo que o mínimo seja 10px e o máximo 40px.*
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Diminua o tamanho das fontes, acredito que -2px já seja o suficiente.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Padrões de resoluções:
+
+Desktops: (min-width: 1281px)
+Laptops, desktops: (min-width: 1025px) and (max-width: 1280px)
+Tablets, ipads: (min-width: 768px) and (max-width: 1024px)
+Tablets de baixa resolução, celulares: (min-width: 482px) and (max-width: 767px)
+A maioria dos smartphones móveis: (min-width:320px) and (max-width: 480px)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sugestões de post para te ajudar na responsividade:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BOA SORTE! 
+By iuricode
