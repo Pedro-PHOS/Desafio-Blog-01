@@ -114,3 +114,20 @@ main{
     font-size: 16px;
     color: #717171;
 }
+
+@media (max-width: 768px){
+
+    .center_flex{
+        width: 90%;
+    }
+
+    #search_bar{
+        width: 90%;
+    }
+    .blog_post{
+        width: 90%;
+    }
+    .post_data{
+        padding-inline: 12px;
+    }
+}
