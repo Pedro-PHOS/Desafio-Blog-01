@@ -103,24 +103,25 @@ main{
 }
 
 .post_data{
-    padding-inline: 20px;
     padding-block: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.post_data p{
+.post_data span{
+    padding-inline: 25px;
     font-size: 16px;
     color: #717171;
+}
+
+.post_data img{
+    padding-inline: 20px;
 }
 
 @media (max-width: 768px){
 
     #header_text{   
-        display: flex;
-        justify-content: space-evenly;
-        color: white;
         height: 20%;
     }
 
@@ -138,9 +139,5 @@ main{
 
     .blog_post{
         width: 90%;
-    }
-
-    .post_data{
-        padding-inline: 12px;
     }
 }
