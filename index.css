@@ -115,8 +115,19 @@ main{
     color: #717171;
 }
 
-.post_data img{
-    padding-inline: 20px;
+#btn_heart{
+    background-color: white;
+    background-image: url("/image/heart.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 20px;
+    height: 20px;
+    padding-inline: 30px;
+    cursor: pointer;
+}
+
+#btn_heart.active{
+    background-image: url("/image/heart-Filled.png");
 }
 
 @media (max-width: 768px){
