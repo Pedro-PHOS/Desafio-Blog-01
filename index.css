@@ -115,18 +115,18 @@ main{
     color: #717171;
 }
 
-#btn_heart{
+.btn_heart{
     background-color: white;
     background-image: url("/image/heart.svg");
     background-repeat: no-repeat;
     background-position: center; 
-    width: 20px;
+    width: 25px;
     height: 20px;
-    padding-inline: 30px;
+    margin-inline: 30px;
     cursor: pointer;
 }
 
-#btn_heart.active{
+.btn_heart.active{
     background-image: url("/image/heart-Filled.png");
 }
 
