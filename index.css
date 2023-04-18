@@ -139,6 +139,48 @@ main{
     background-image: url("/image/heart-Filled.png");
 }
 
+/* ***** Copyright *****  */
+
+#copy_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#copy_button{
+    background-color: #F3F5F7;
+    color: #000000;
+    border: 1px solid black;
+    border-bottom: 0px solid;
+    cursor: pointer;
+    align-self: flex-end;
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.8rem;
+}
+
+#copy_hidden{
+    display: none;
+}
+
+#copy_hidden a{
+    text-decoration: none;
+    color:#569ff5;
+    margin-inline: 0rem;
+}
+
+#copy_section.show #copy_hidden{
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    color: #000000;
+    background-color: #F3F5F7;
+    border-top: 1px solid black;
+}
+
+
 @media (max-width: 768px){
 
     #header_text{   
